@@ -1,0 +1,95 @@
+body{
+  font-family: Arial, sans-serif;
+  text-align:left;
+  padding:50px;
+}
+
+#message {
+  background-color: #f7f7f7;
+  border-radius:10px;
+  padding:10px;
+  display:none;
+}
+
+#result, #lorem-photos {
+  margin-top:30px;
+  display:flex;
+  /*ask class how do i get them to wrap down? */
+  flex-wrap: wrap;
+}
+
+#lorem-photos img {
+  margin-right:10px;
+}
+.product{
+  border:1px solid black;
+  width:20%;
+  margin:5px;
+  text-align:center;
+  border-radius: 15px;
+}
+.product img {
+  width:100%;
+  border-radius: 15px 15px 0 0;
+}
+
+/* buttons */
+
+.button:hover {
+  cursor:pointer;
+  color:#198754;
+  background-color: white;
+}
+.button {
+  display:inline-block;
+  border-radius:10px;
+  background: #198754;
+  color:white;
+  margin-bottom:10px;
+  margin-top:10px;
+  padding: 10px 20px;
+  border: 1px solid #198754;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  user-select:none;
+}
+
+i {
+  display:inline-block;
+  margin-top:20px;
+  margin-right:30px;
+  font-size:50px;
+  color:salmon;
+}
+
+.student span {
+  position:relative;
+  top:-10px;
+}
+
+.food {
+  background-color:#f7f7f7;
+  margin-bottom:10px;
+  padding:15px;
+  border-radius:10px;
+}
+
+#alerts {
+  display:none;
+  background-color:#f7f7f7;
+  margin-bottom:10px;
+  padding:15px;
+  border-radius:10px;
+}
+
+#productimage {
+  width:300px;
+}
+
+input {
+  margin-bottom:10px;
+}
+
+#result {
+  display:flex;
+}
